@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    tools:context="com.example.mandirinewsapp.ui.AllNews"
+    android:background="@color/white"> <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginHorizontal="16dp">
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:padding="8dp"
+        android:src="@drawable/baseline_arrow_back_ios_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Discover"
+        android:textColor="@color/black"
+        android:textSize="24dp" />
+
+</RelativeLayout>
+
+    <EditText
+        android:id="@+id/searchEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search news..."
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:textSize="14sp"
+        android:backgroundTint="@color/light_gray_bg" android:background="@drawable/search_border"
+        android:drawableEnd="@drawable/baseline_search_24" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/category_all"
+                android:layout_marginEnd="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/dark_blue"
+                android:textSize="14sp"
+                android:clickable="true"
+                android:text="All"/>
+
+            <TextView
+                android:id="@+id/category_sports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:clickable="true"
+                android:fontFamily="@font/poppins_reg"
+                android:text="Sports"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_marginHorizontal="12dp"
+                android:id="@+id/category_health"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_reg"
+                android:textSize="14sp"
+                android:clickable="true"
+                android:text="Health"/>
+
+            <TextView
+                android:layout_marginHorizontal="12dp"
+                android:id="@+id/category_technology"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_reg"
+                android:textSize="14sp"
+                android:clickable="true"
+                android:text="Technology"/>
+
+            <TextView
+                android:layout_marginHorizontal="12dp"
+                android:id="@+id/category_science"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_reg"
+                android:textSize="14sp"
+                android:clickable="true"
+                android:text="Science"/>
+
+            <TextView
+                android:layout_marginHorizontal="12dp"
+                android:id="@+id/category_business"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_reg"
+                android:textSize="14sp"
+                android:clickable="true"
+                android:text="Business"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <LinearLayout
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"> <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerNews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_news"/>
+    </LinearLayout>
+</LinearLayout>

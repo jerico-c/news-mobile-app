@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    android:layout_marginEnd="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/h_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/no_images" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_overlay" /> <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/h_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_reg"
+            android:text="CNN Indonesia"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/h_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Breeze Airways Expands Fleet with New Airbus A220"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+    </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
