@@ -66,12 +66,3 @@ The project focuses on a clean User Interface (UI), efficient network handling u
 
 ---
 
-## 👤 Author
-
-**[Nama Anda]**
-* Mobile Apps Developer Intern at Bank Mandiri
-* [LinkedIn Profile](LINK_LINKEDIN_ANDA)
-
----
-
-Copyright © 2025. All Rights Reserved.
