@@ -50,7 +50,7 @@ The project focuses on a clean User Interface (UI), efficient network handling u
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/jerico-c/news-mobile-app.git](https://github.com/jerico-c/news-mobile-app.git)
+    git clone https://github.com/jerico-c/news-mobile-app.git
     ```
 2.  **Open in Android Studio**
     Open Android Studio and select "Open an Existing Project", then navigate to the cloned directory.
