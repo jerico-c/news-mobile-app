@@ -40,7 +40,7 @@ The project focuses on a clean User Interface (UI), efficient network handling u
 
 | **Home Screen** | **Discover Screen** | **Detail Screen** |
 |:---:|:---:|:---:|
-| <img src="screenshoot1.png" width="250" /> | <img src="" width="250" /> | <img src="screenshoot2.png" width="250" /> |
+| <img src="screenshoot1.png" width="250" /> | <img src="screenshoot3" width="250" /> | <img src="screenshoot2.png" width="250" /> |
 
 *(Note: The images above demonstrate the modern UI overhaul, featuring the official Mandiri News branding and a clean, whitespace-driven layout.)*
 
