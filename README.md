@@ -66,3 +66,13 @@ The project focuses on a clean User Interface (UI), efficient network handling u
 
 ---
 
+## 👤 Author
+
+**Jerico Christianto**
+* Mobile Apps Developer Virtual Intern at Bank Mandiri
+* [LinkedIn Profile](https://www.linkedin.com/in/jerico-christianto)
+
+---
+
+Copyright © 2025. All Rights Reserved.
+
